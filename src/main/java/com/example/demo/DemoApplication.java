@@ -7,8 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
     private String dev= "dev programmer";
+
+    private static String patch_file = "out";
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
+        System.out.println(patch_file);
     }
 
 }

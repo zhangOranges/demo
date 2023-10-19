@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoApplication {
 
+    private String dev= "dev programmer3";
 
     private static String patch_file = "out";
-    private String dev= "dev programmer3";
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
         System.out.println(patch_file);
